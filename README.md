@@ -1,6 +1,6 @@
-#  React MUI Todo App
+#  React Todo App
 
-A professional Todo Application built using React and Material UI with LocalStorage support.
+A Todo Application built using React and Material UI with LocalStorage support.
 
 ---
 
@@ -22,7 +22,6 @@ A professional Todo Application built using React and Material UI with LocalStor
 - Mark tasks as completed
 - Persistent storage using LocalStorage
 - Clean and responsive UI
-- Professional folder structure
 
 ---
 
