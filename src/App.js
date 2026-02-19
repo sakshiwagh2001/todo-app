@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Typography, Paper, Box } from "@mui/material";
+import TodoProvider from "./context/TodoContext";
+import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodoProvider>
+      <Container maxWidth="sm">
+        <Box mt={8}>
+          <Typography
+            variant="h4"
+            align="center"
+            gutterBottom
+            sx={{ color: "#5e60ce", fontWeight: "bold" }}
+          >
+            Todo App
+          </Typography>
+
+          {/* Form Card */}
+          <Paper elevation={4} sx={{ p: 3, mb: 4 }}>
+            <TodoForm />
+          </Paper>
+
+          {/* List Card */}
+          <Paper elevation={4} sx={{ p: 3 }}>
+            <TodoList />
+          </Paper>
+        </Box>
+      </Container>
+    </TodoProvider>
   );
 }
 
 export default App;
+
+
