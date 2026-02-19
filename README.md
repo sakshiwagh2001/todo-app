@@ -28,24 +28,32 @@ A professional Todo Application built using React and Material UI with LocalStor
 
 ##  Folder Structure
 
-src/
+```
+todo-app/
 │
-├── components/
-│   ├── TodoForm.jsx
-│   ├── TodoItem.jsx
-│   └── TodoList.jsx
+├── public/
 │
-├── context/
-│   └── TodoContext.jsx
+├── src/
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── TodoList.jsx
+│   │
+│   ├── context/
+│   │   └── TodoContext.jsx
+│   │
+│   ├── hooks/
+│   │   └── useLocalStorage.js
+│   │
+│   ├── theme/
+│   │   └── theme.js
+│   │
+│   ├── App.jsx
+│   └── index.js
 │
-├── hooks/
-│   └── useLocalStorage.js
-│
-├── theme/
-│   └── theme.js
-│
-├── App.jsx
-└── index.js
+├── package.json
+└── README.md
+```
 
 ---
 
