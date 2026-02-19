@@ -1,10 +1,10 @@
-# 📝 React MUI Todo App
+#  React MUI Todo App
 
 A professional Todo Application built using React and Material UI with LocalStorage support.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - React.js
 - Material UI (MUI)
@@ -15,7 +15,7 @@ A professional Todo Application built using React and Material UI with LocalStor
 
 ---
 
-## ✨ Features
+##  Features
 
 - Add new tasks
 - Delete tasks
@@ -26,7 +26,7 @@ A professional Todo Application built using React and Material UI with LocalStor
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 src/
 │
@@ -49,9 +49,9 @@ src/
 
 ---
 
-## 💻 Installation & Setup
+##  Installation & Setup
 
-1️⃣ Clone the repository
+1️ Clone the repository
 
 ```bash
 git clone https://github.com/sakshiwagh2001/todo-app.git
